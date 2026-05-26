@@ -1,0 +1,33 @@
+{
+  "name": "mindbase",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "@supabase/supabase-js": "^2.43.0",
+    "@supabase/ssr": "^0.10.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^3.4.1",
+    "postcss": "8.5.15",
+    "autoprefixer": "^10"
+  },
+  "overrides": {
+    "postcss": "8.5.15"
+  }
+}
